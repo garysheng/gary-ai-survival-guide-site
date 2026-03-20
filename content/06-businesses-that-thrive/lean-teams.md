@@ -30,4 +30,4 @@ A lean AI-augmented team needs three core functions: imaginative strategy, stron
 - [[trust-as-leverage]]
 - [[the-augmented-creator]]
 - [[self-improving-business]]
-- [[the-imagination-economy]]
+- [[07-the-applied-ai-mindset/the-imagination-economy|The Imagination Economy]]

@@ -30,4 +30,4 @@ The next decade will create a significant and compounding gap between teams that
 - [[lean-teams]]
 - [[unblocking-your-business]]
 - [[the-reinvention-imperative]]
-- [[the-imagination-economy]]
+- [[01-the-moment-we-are-in/the-imagination-economy|The Imagination Economy]]

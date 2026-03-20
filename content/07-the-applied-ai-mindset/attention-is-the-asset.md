@@ -35,6 +35,6 @@ Attention is your most finite and most valuable resource. In an era where AI han
 - [[dont-drop-the-ball]]
 - [[the-personal-jarvis]]
 - [[meta-work-is-now-work]]
-- [[the-imagination-economy]]
+- [[07-the-applied-ai-mindset/the-imagination-economy|The Imagination Economy]]
 - [[be-easily-annoyed]]
 - [[building-your-command-center]]

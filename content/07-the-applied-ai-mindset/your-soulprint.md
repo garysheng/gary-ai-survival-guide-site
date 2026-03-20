@@ -53,4 +53,4 @@ Your soulprint is the pattern that emerges from what you actually save, not what
 - [[the-personal-jarvis]]
 - [[giving-ai-your-context]]
 - [[building-your-command-center]]
-- [[the-imagination-economy]]
+- [[07-the-applied-ai-mindset/the-imagination-economy|The Imagination Economy]]

@@ -70,5 +70,5 @@ Sovereignty begins with recognizing that most of the games you play were designe
 - [[attention-is-the-asset]]
 - [[your-prompts-come-from-god]]
 - [[ai-as-idol]]
-- [[the-imagination-economy]]
+- [[07-the-applied-ai-mindset/the-imagination-economy|The Imagination Economy]]
 - [[your-soulprint]]

@@ -22,7 +22,7 @@ This chapter covers the thirteen mental shifts that separate people who use AI w
 7. [[self-improving-business]]
 8. [[dont-drop-the-ball]]
 9. [[meta-work-is-now-work]]
-10. [[the-imagination-economy]]
+10. [[07-the-applied-ai-mindset/the-imagination-economy|The Imagination Economy]]
 11. [[attention-is-the-asset]]
 12. [[roles-to-workflows]]
 13. [[observable-behavior]]

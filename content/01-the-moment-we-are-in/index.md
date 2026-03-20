@@ -16,4 +16,4 @@ The mistake most people are making right now is letting novelty drive their atte
 1. [[what-is-actually-happening]]
 2. [[what-people-get-wrong]]
 3. [[the-next-ten-years]]
-4. [[the-imagination-economy]]
+4. [[01-the-moment-we-are-in/the-imagination-economy|The Imagination Economy]]
