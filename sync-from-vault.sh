@@ -19,14 +19,15 @@ echo "==> Syncing content..."
 rm -rf "$DEST"
 mkdir -p "$DEST"
 
-rsync -av --delete \
-  --exclude='_*' \
-  --exclude='.obsidian' \
-  --exclude='.git' \
-  --exclude='CLAUDE.md' \
-  --exclude='README.md' \
-  --exclude='skills/' \
-  "$CLONE_DIR/" "$DEST"
+# Copy everything, then remove excluded dirs/files
+cp -r "$CLONE_DIR"/* "$DEST" 2>/dev/null || true
+cp -r "$CLONE_DIR"/.[!.]* "$DEST" 2>/dev/null || true
+
+# Remove internal/excluded content
+rm -rf "$DEST"/_raw "$DEST"/_staging "$DEST"/_state "$DEST"/_templates
+rm -rf "$DEST"/.obsidian "$DEST"/.git "$DEST"/.github
+rm -rf "$DEST"/skills
+rm -f "$DEST"/CLAUDE.md "$DEST"/README.md
 
 rm -rf "$CLONE_DIR"
 
