@@ -11,25 +11,30 @@ REPO="https://${VAULT_GITHUB_TOKEN}@github.com/garysheng/gary-ai-survival-guide.
 CLONE_DIR="/tmp/vault-clone"
 DEST="content"
 
-echo "==> Cloning vault repo (shallow)..."
+echo "==> Cloning vault repo..."
 rm -rf "$CLONE_DIR"
-git clone --depth 1 "$REPO" "$CLONE_DIR"
+git clone "$REPO" "$CLONE_DIR"
 
-echo "==> Preparing content directory..."
-rm -rf "$DEST"
-
-# Remove internal/excluded content from clone before moving into place
+# Remove internal/excluded content from clone
 rm -rf "$CLONE_DIR"/_raw "$CLONE_DIR"/_staging "$CLONE_DIR"/_state "$CLONE_DIR"/_templates
 rm -rf "$CLONE_DIR"/.obsidian "$CLONE_DIR"/.git "$CLONE_DIR"/.github
 rm -rf "$CLONE_DIR"/skills
 rm -f "$CLONE_DIR"/CLAUDE.md "$CLONE_DIR"/README.md
 
-# Move the cleaned clone directly into content/
+# Replace content directory with cleaned clone
+rm -rf "$DEST"
 mv "$CLONE_DIR" "$DEST"
 
-echo "==> Content directory contents:"
-ls -la "$DEST"/
-echo "==> Chapter count:"
-ls -d "$DEST"/[0-9]* | wc -l
-
-echo "==> Content synced successfully."
+# Verify
+echo "==> content/ root files:"
+ls "$DEST"/
+echo "==> Checking index.md exists:"
+if [ -f "$DEST/index.md" ]; then
+  echo "  YES: content/index.md found"
+  head -5 "$DEST/index.md"
+else
+  echo "  MISSING: content/index.md not found!"
+  echo "  content/ contains:"
+  find "$DEST" -name "index.md" | head -10
+fi
+echo "==> Done."
