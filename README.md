@@ -1,16 +1,16 @@
-# Gary's AI Survival Guide — Site
+# Hyperagency — Site
 
-Quartz 4 site that publishes the AI Survival Guide vault as a static website.
+Quartz 4 site that publishes the Hyperagency book vault as a static website.
 
-**Live site:** https://aisurvivalguide.garysheng.com
+**Live site:** https://hyperagency.garysheng.com
 
 ## Architecture
 
-Content lives in a separate private repo ([gary-ai-survival-guide](https://github.com/garysheng/gary-ai-survival-guide)). This repo contains only the Quartz config, theme, and build pipeline. Content is cloned at build time, not stored here.
+Content lives in a separate private repo ([hyperagency](https://github.com/garysheng/hyperagency)). This repo contains only the Quartz config, theme, and build pipeline. Content is cloned at build time, not stored here.
 
 ```
 vault repo (private)              site repo (public)
-gary-ai-survival-guide    →    gary-ai-survival-guide-site
+hyperagency               →    hyperagency-site
   (source of truth)               (Quartz + config only)
         │                                │
         │  push to main                  │
@@ -50,7 +50,7 @@ gary-ai-survival-guide    →    gary-ai-survival-guide-site
 For local development, use the original `sync-content.sh` which reads from a sibling directory:
 
 ```bash
-# Assumes gary-ai-survival-guide is cloned as a sibling
+# Assumes hyperagency is cloned as a sibling
 bash sync-content.sh
 npx quartz build --serve
 ```

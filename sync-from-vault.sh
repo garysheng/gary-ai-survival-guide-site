@@ -7,7 +7,7 @@
 
 set -euo pipefail
 
-REPO="https://${VAULT_GITHUB_TOKEN}@github.com/garysheng/gary-ai-survival-guide.git"
+REPO="https://${VAULT_GITHUB_TOKEN}@github.com/garysheng/hyperagency.git"
 CLONE_DIR="/tmp/vault-clone"
 DEST="content"
 

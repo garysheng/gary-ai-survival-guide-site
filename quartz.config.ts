@@ -3,13 +3,13 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Gary's AI Survival Guide",
+    pageTitle: "Hyperagency",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "aisurvivalguide.garysheng.com",
+    baseUrl: "hyperagency.garysheng.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {

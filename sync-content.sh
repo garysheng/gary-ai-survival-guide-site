@@ -2,7 +2,7 @@
 # Sync content from the AI Survival Guide Obsidian vault
 # Excludes internal dirs (_raw, _staging, _state, _templates), .obsidian, CLAUDE.md, skills/
 
-SOURCE="../gary-ai-survival-guide/"
+SOURCE="../hyperagency/"
 DEST="content/"
 
 rsync -av --delete \
