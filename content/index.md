@@ -16,7 +16,7 @@ Read it start to finish, or jump to whatever chapter speaks to where you are rig
 2. [[02-you-are-not-irrelevant/index|You Are Not Irrelevant]]
 3. [[03-state-a-to-state-z/index|State A to State Z]]
 4. [[04-sovereignty/index|Sovereignty]]
-5. [[05-the-augmented-professional/index|The Augmented Professional]]
+5. [[05-the-hyperagent/index|The Hyperagent]]
 6. [[06-businesses-that-thrive/index|Businesses That Thrive]]
 7. [[07-the-applied-ai-mindset/index|The Applied AI Mindset]]
 8. [[08-getting-started/index|Getting Started]]
